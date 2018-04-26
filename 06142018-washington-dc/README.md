@@ -17,9 +17,9 @@ To achieve the goals of this meeting, three topic-specific working groups will a
 This group focuses on developing the hierarchical LC class taxonomy. Participants will use current taxonomies as a baseline, and develop the globally inclusive LC class taxonomy which has a hierarchical structure.
  * Working Group 2: Machine Learning Algorithms
 This group will review and document best practices in using ML for LC classification. A non- inclusive list of the topics to be discussed are:
-  * How to achieve higher accuracies within each class, and between different classes?
-  * What should be the metric for measuring training data diversity?
-  * How to improve the quality of training data?
+	* How to achieve higher accuracies within each class, and between different classes?
+ 	* What should be the metric for measuring training data diversity?
+ 	* How to improve the quality of training data?
 (Additional topics may emerge from the morning session).
  * Working Group 3: Training data specifications
 This group will develop specifications for LC labels to be stored in the imagery metadata. The goal would be to use the Spatio-Temporal Asset Catalogue (STAC) for this purpose, and design specifications for labels to be stored in imagery with Cloud-Optimized Geotiff (COG) format.
