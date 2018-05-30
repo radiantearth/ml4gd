@@ -2,14 +2,14 @@
 
 Radiant.Earth is hosting a 2 day technical workshop 14-15 June, 2018 in Washington, D.C. Goal is to discuss and develop specifications for the global LC labeled training dataset by aggregating inputs from all participants. 
 
-##Expected Outcomes:
+## Expected Outcomes:
  * Generating an inclusive hierarchical taxonomy of LC classes at global scale;
  * Defining specifications of the signature library for labeling and metadata storage;
  * Reviewing, examining and documenting best practices for using ML with satellite imagery for LC classification; and
  * Identifying knowledge gaps.
 
 
-# Workshop Structure
+## Workshop Structure
 
 To achieve the goals of this meeting, three topic-specific working groups will address the following during the breakout sessions:
 
@@ -25,9 +25,9 @@ This group will review and document best practices in using ML for LC classifica
 This group will develop specifications for LC labels to be stored in the imagery metadata. The goal would be to use the Spatio-Temporal Asset Catalogue (STAC) for this purpose, and design specifications for labels to be stored in imagery with Cloud-Optimized Geotiff (COG) format.
 
 
-# Confirmed Participants
+## Confirmed Participants
 
-|                                                 |                   |                                                 |                                                      | 
+| First Name                                      |Last Name                  | Title                                                 | Organization                                                      | 
 |-------------------------------------------------|-------------------|-------------------------------------------------|------------------------------------------------------| 
 | Hamed                                           | Alemohammad       | Lead Geospatial Data Scientist                  | Radiant.Earth                                        | 
 | Christoph                                       | Aubrecht          | ESA Representative at WB                        | European Space Agency                                | 
@@ -40,7 +40,7 @@ This group will develop specifications for LC labels to be stored in the imagery
 | Rob                                             | Emanuele          | VP of Research                                  | Azavea                                               | 
 | Ryan                                            | Engstrom          | Professor                                       | The George Washington University                     | 
 | Lyndon                                          | Estes             | Assistant Professor                             | Clark University                                     | 
-| Mark	Friedl	Professor & CoFounder, Tellus Labs" | Boston University |                                                 |                                                      | 
+| Mark	 | Friedl	 |  Professor & CoFounder                                              |                                                      | Boston University / Tellus Labs
 | Yonah Bromberg                                  | Gaber             | Platform Developer Community Associate          | Radiant.Earth                                        | 
 | Victoria                                        | Gammino           | Chief Science Officer                           | Radiant.Earth                                        | 
 | James                                           | Gill              | Data Scientist, Spatial Computing               | Facebook                                             | 
