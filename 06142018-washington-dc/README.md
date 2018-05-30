@@ -23,3 +23,39 @@ This group will review and document best practices in using ML for LC classifica
 (Additional topics may emerge from the morning session).
  * Working Group 3: Training data specifications
 This group will develop specifications for LC labels to be stored in the imagery metadata. The goal would be to use the Spatio-Temporal Asset Catalogue (STAC) for this purpose, and design specifications for labels to be stored in imagery with Cloud-Optimized Geotiff (COG) format.
+
+
+# Confirmed Participants
+
+|                                                 |                   |                                                 |                                                      | 
+|-------------------------------------------------|-------------------|-------------------------------------------------|------------------------------------------------------| 
+| Hamed                                           | Alemohammad       | Lead Geospatial Data Scientist                  | Radiant.Earth                                        | 
+| Christoph                                       | Aubrecht          | ESA Representative at WB                        | European Space Agency                                | 
+| Tasso                                           | Azevedo           | Lead, MapBiomas                                 | MapBiomas                                            | 
+| Todd                                            | Bascastow         | Director, Radiant Solutions                     | Radiant Solutions                                    | 
+| Budhendra                                       | Bhaduri           | Corporate Research Fellow                       | Oak Ridge National Lab                               | 
+| Drew                                            | Bollinger         | Developer                                       | Development Seed/Synergise                           | 
+| Steven                                          | Brumby            | Chief Science Advisory, WRI                     | World Resources Institute                            | 
+| Nancy                                           | Colleton          | President                                       | Institute for Global Environmental Strategies (IGES) | 
+| Rob                                             | Emanuele          | VP of Research                                  | Azavea                                               | 
+| Ryan                                            | Engstrom          | Professor                                       | The George Washington University                     | 
+| Lyndon                                          | Estes             | Assistant Professor                             | Clark University                                     | 
+| Mark	Friedl	Professor & CoFounder, Tellus Labs" | Boston University |                                                 |                                                      | 
+| Yonah Bromberg                                  | Gaber             | Platform Developer Community Associate          | Radiant.Earth                                        | 
+| Victoria                                        | Gammino           | Chief Science Officer                           | Radiant.Earth                                        | 
+| James                                           | Gill              | Data Scientist, Spatial Computing               | Facebook                                             | 
+| David                                           | Grason            | Senior Manager, Platform Analytics              | DigitalGlobe                                         | 
+| Murali Krishna                                  | Gumma             | Remote Sensing and GIS Scientist                | CGIAR                                                | 
+| Anne                                            | Hale Miglarese    | CEO                                             | Radiant.Earth                                        | 
+| Matt                                            | Hansen            | Professor                                       | University of Maryland                               | 
+| Chris                                           | Holmes            | Product Manager / Technical Fellow              | Radiant.Earth                                        | 
+| Kevin                                           | Horn              | Ecosystem Ecologist / Remote Sensing Specialist | USAID                                                | 
+| David                                           | Lindenbaum        | Principal Engineer                              | CosmiQ Works                                         | 
+| Dan                                             | Lopez             | Chief Technology Officer                        | Radiant.Earth                                        | 
+| Christopher                                     | Lynnes            | EOSDIS System Architect                         | NASA                                                 | 
+| Yoni                                            | Nachmany          | Machine Learning Intern, Radiant.Earth          | Radiant.Earth                                        | 
+| Aislinn                                         | Pearson           | Head of Product Development                     | Innovative Solutions for Decision Agriculture        | 
+| Marcos                                          | Rosa              | Technical Coordinator                           | MapBiomas                                            | 
+| Markus                                          | Walsh             | Senior Research Scientist                       | Selian Agricultural Research Institute               | 
+| Zhuangfang                                      | Yi                | Machine Learning Engineer                       | Development Seed                                     | 
+
