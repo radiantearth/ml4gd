@@ -21,11 +21,11 @@ This group focuses on developing the hierarchical LC class taxonomy. Participant
 
 This group will review and document best practices in using ML for LC classification. A non- inclusive list of the topics to be discussed are:
 	
-	- How to achieve higher accuracies within each class, and between different classes?
+- How to achieve higher accuracies within each class, and between different classes?
  	
-	- What should be the metric for measuring training data diversity?
- 	
-	- How to improve the quality of training data?
+- What should be the metric for measuring training data diversity?
+ 
+- How to improve the quality of training data?
 
 (Additional topics may emerge from the morning session).
 
