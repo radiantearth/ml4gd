@@ -57,7 +57,7 @@ This group will develop specifications for LC labels to be stored in the imagery
 | Murali Krishna| Gumma		| Remote Sensing and GIS Scientist                | CGIAR				| 
 | Anne		| Hale Miglarese| CEO                                             | Radiant.Earth			| 
 | Matt		| Hansen 	| Professor                                       | University of Maryland		| 
-| Chris		| Holmes 	| Product Manager / Technical Fellow              | Radiant.Earth			| 
+| Chris		| Holmes 	| Product Manager / Technical Fellow              | Planet / Radiant.Earth		| 
 | Kevin		| Horn     	| Ecosystem Ecologist / Remote Sensing Specialist | USAID				| 
 | David		| Lindenbaum 	| Principal Engineer                              | CosmiQ Works			| 
 | Dan		| Lopez     	| CTO                        			  | Radiant.Earth			| 
