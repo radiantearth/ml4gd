@@ -33,4 +33,4 @@ This group will review and document best practices in using ML for LC classifica
 
 This group will develop specifications for LC labels to be stored in the imagery metadata. The goal would be to use the Spatio-Temporal Asset Catalogue (STAC) for this purpose, and design specifications for labels to be stored in imagery with Cloud-Optimized Geotiff (COG) format.
 
-Full list of participants is available ["here"](/participants.md).
+Full list of participants is available [here](participants.md).
