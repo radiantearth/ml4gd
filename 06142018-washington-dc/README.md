@@ -49,6 +49,7 @@ This group will develop specifications for LC labels to be stored in the imagery
 | Rob		| Emanuele    	| VP of Research                                  | Azavea 				| 
 | Ryan		| Engstrom  	| Professor                                       | The George Washington University	| 
 | Lyndon	| Estes      	| Assistant Professor                             | Clark University 			| 
+| Joe 		| Flasher 		| Open Geospatial Data Lead 					  | Amazon Web Services			|
 | Mark		| Friedl	|  Professor / CoFounder                          | Boston University / Tellus Labs 	| 
 | Yonah Bromberg| Gaber 	| Platform Developer Community Associate          | Radiant.Earth 			| 
 | Victoria	| Gammino  	| Chief Science Officer                           | Radiant.Earth			| 
