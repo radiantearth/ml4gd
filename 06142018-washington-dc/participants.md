@@ -24,6 +24,7 @@
 | Matt		| Hansen 	| Professor                                       | University of Maryland		| 
 | Chris		| Holmes 	| Product Manager / Technical Fellow              | Planet / Radiant.Earth		| 
 | Kevin		| Horn     	| Ecosystem Ecologist / Remote Sensing Specialist | USAID				| 
+| Peter 	| Kerins	| Research Assistant								| World Resources Institute |
 | David		| Lindenbaum 	| Principal Engineer                              | CosmiQ Works			| 
 | Dan		| Lopez     	| CTO                        			  | Radiant.Earth			| 
 | Christopher	| Lynnes   	| EOSDIS System Architect                         | NASA				| 
