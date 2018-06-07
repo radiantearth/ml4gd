@@ -29,6 +29,7 @@
 | Dan		| Lopez     	| CTO                        			  | Radiant.Earth			| 
 | Christopher	| Lynnes   	| EOSDIS System Architect                         | NASA				| 
 | Yoni		| Nachmany	| Machine Learning Intern, Radiant.Earth          | Radiant.Earth			| 
+| Louisa	| Nakanuku-Diggs | Marketing and Communications Manager			| Radiant.Earth			|
 | Aislinn	| Pearson	| Head of Product Development                     | Innovative Solutions for Decision Agriculture| 
 | Marcos	| Rosa		| Technical Coordinator                           | MapBiomas				| 
 | Markus	| Walsh		| Senior Research Scientist                       | Selian Agricultural Research Institute| 
