@@ -1,7 +1,7 @@
 
 Notebook: http://board.net/p/ml-lc-w1
 
-Participants:
+***Participants:***
 
 Christoph	Aubrecht,	ESA Representative at WB,	European Space Agency
 
