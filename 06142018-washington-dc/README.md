@@ -52,9 +52,7 @@ This group will develop specifications for LC labels to be stored in the imagery
 
 1. How to store labels and any parameters associated with those (such as uncertainty) in COG format?
 
-2. How to incorporate the LC taxonomy level (from WG 1) into the metadata?
-
-3. 
+2. How to incorporate the LC taxonomy level (from WG 1) into the metadata? 
 
 (Additional topics may emerge from the morning session).
 
