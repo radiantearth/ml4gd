@@ -16,7 +16,6 @@
 | Joe 		| Flasher 		| Open Geospatial Data Lead 					  | Amazon Web Services			|
 | Mark		| Friedl	|  Professor / CoFounder                          | Boston University / Tellus Labs 	| 
 | Yonah Bromberg| Gaber 	| Platform Developer Community Associate          | Radiant.Earth 			| 
-| Victoria	| Gammino  	| Chief Science Officer                           | Radiant.Earth			| 
 | James		| Gill  	| Data Scientist, Spatial Computing               | Facebook				| 
 | David		| Grason  	| Senior Manager, Platform Analytics              | DigitalGlobe			| 
 | Murali Krishna| Gumma		| Remote Sensing and GIS Scientist                | CGIAR				| 
