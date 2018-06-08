@@ -3,7 +3,7 @@
 | First Name 	|Last Name	| Title						| Organization                   | 
 |---------------|---------------|---------------------------------|------------------------------------------------------| 
 | Hamed 	| Alemohammad	| Lead Geospatial Data Scientist                  | Radiant.Earth            		| 
-| Christoph 	| Aubrecht	| ESA Representative at WB                        | European Space Agency             	| 
+| Christoph | Aubrecht	| ESA Representative at WB                        | European Space Agency             	| 
 | Tasso		| Azevedo	| Lead, MapBiomas                                 | MapBiomas                        	| 
 | Todd		| Bascastow	| Director                                        | Radiant Solutions               	| 
 | Budhendra	| Bhaduri     	| Corporate Research Fellow                       | Oak Ridge National Lab          	| 
@@ -28,7 +28,7 @@
 | David		| Lindenbaum 	| Principal Engineer                              | CosmiQ Works			| 
 | Dan		| Lopez     	| CTO                        			  | Radiant.Earth			| 
 | Christopher	| Lynnes   	| EOSDIS System Architect                         | NASA				| 
-| Yoni		| Nachmany	| Machine Learning Intern, Radiant.Earth          | Radiant.Earth			| 
+| Yoni		| Nachmany	| Machine Learning Intern					          | Radiant.Earth			| 
 | Louisa	| Nakanuku-Diggs | Marketing and Communications Manager			| Radiant.Earth			|
 | Aislinn	| Pearson	| Head of Product Development                     | Innovative Solutions for Decision Agriculture| 
 | Marcos	| Rosa		| Technical Coordinator                           | MapBiomas				| 
