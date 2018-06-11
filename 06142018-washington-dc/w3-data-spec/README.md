@@ -5,7 +5,7 @@ Notebook: http://board.net/p/ml-lc-w3
 
 Hamed	Alemohammad,	Lead Geospatial Data Scientist,	Radiant.Earth
 
-Drew	Bollinger,	Developer,	Development Seed/Synergise
+Drew	Bollinger,	Developer,	Development Seed
 
 Rob	Emanuele,	VP of Research,	Azavea
 

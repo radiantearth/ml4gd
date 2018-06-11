@@ -7,7 +7,7 @@
 | Tasso		| Azevedo	| Lead, MapBiomas                                 | MapBiomas                        	| 
 | Todd		| Bascastow	| Director                                        | Radiant Solutions               	| 
 | Budhendra	| Bhaduri     	| Corporate Research Fellow                       | Oak Ridge National Lab          	| 
-| Drew		| Bollinger    	| Developer                                       | Development Seed/Synergise       	| 
+| Drew		| Bollinger    	| Developer                                       | Development Seed       	| 
 | Steven	| Brumby  	| Chief Science Advisory                          | World Resources Institute 		| 
 | Nancy		| Colleton    	| President                                       | Institute for Global Environmental Strategies (IGES)| 
 | Rob		| Emanuele    	| VP of Research                                  | Azavea 				| 
