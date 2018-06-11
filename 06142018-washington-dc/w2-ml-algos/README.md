@@ -18,3 +18,5 @@ Christopher	Lynnes,	EOSDIS System Architect,	NASA
 Yoni	Nachmany,	Machine Learning Intern,	Radiant.Earth
 
 Marcos	Rosa,	Technical Coordinator,	MapBiomas
+
+Zhuangfang	Yi,	Machine Learning Engineer,	Development Seed

@@ -18,5 +18,3 @@ Chris	Holmes,	Product Manager / Technical Fellow,	Planet / Radiant.Earth
 Peter	Kerins,	Research Assistant,	World Resources Institute
 
 David	Lindenbaum,	Principal Engineer,	CosmiQ Works
-
-Zhuangfang	Yi,	Machine Learning Engineer,	Development Seed
