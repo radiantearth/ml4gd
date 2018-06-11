@@ -30,6 +30,8 @@ This group focuses on developing the hierarchical LC class taxonomy. Participant
 
 4. How to allow new classes that might emerge in future be included in the taxonomy?
 
+5. Best strategy for collecting a representative and diverse set of image tiles at global scale to include all major land cover classes. 
+
 (Additional topics may emerge from the morning session).
 
 
@@ -53,6 +55,8 @@ This group will develop specifications for LC labels to be stored in the imagery
 1. How to store labels and any parameters associated with those (such as uncertainty) in COG format?
 
 2. How to incorporate the LC taxonomy level (from WG 1) into the metadata? 
+
+3. How to use imagery metadata to sample a representative set of tiles at global scale?
 
 (Additional topics may emerge from the morning session).
 
