@@ -17,6 +17,4 @@ Matt	Hansen,	Professor,	University of Maryland
 
 Kevin	Horn,	Ecosystem Ecologist / Remote Sensing Specialist,	USAID
 
-Aislinn	Pearson,	Head of Product Development, Innovative Solutions for Decision Agriculture
-
 Markus	Walsh,	Senior Research Scientist,	Selian Agricultural Research Institute

@@ -17,6 +17,8 @@ Christopher	Lynnes,	EOSDIS System Architect,	NASA
 
 Yoni	Nachmany,	Machine Learning Intern,	Radiant.Earth
 
+Aislinn	Pearson,	Head of Product Development, Innovative Solutions for Decision Agriculture
+
 Marcos	Rosa,	Technical Coordinator,	MapBiomas
 
 Zhuangfang	Yi,	Machine Learning Engineer,	Development Seed
