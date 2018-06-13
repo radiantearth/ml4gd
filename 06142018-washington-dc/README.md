@@ -60,4 +60,7 @@ This group will develop specifications for LC labels to be stored in the imagery
 
 (Additional topics may emerge from the morning session).
 
+### Notes
+
+Use this notebook for following notes and adding yours from the general sessions: http://board.net/p/ml4gd-dc-18
 
