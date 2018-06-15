@@ -13,6 +13,8 @@ Lyndon	Estes,	Assistant Professor,	Clark University
 
 James	Gill,	Data Scientist, Spatial Computing,	Facebook
 
+Peter	Kerins,	Research Assistant,	World Resources Institute
+
 Christopher	Lynnes,	EOSDIS System Architect,	NASA
 
 Yoni	Nachmany,	Machine Learning Intern,	Radiant.Earth

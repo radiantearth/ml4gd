@@ -15,6 +15,4 @@ David	Grason,	Senior Manager, Platform Analytics,	DigitalGlobe
 
 Chris	Holmes,	Product Manager / Technical Fellow,	Planet / Radiant.Earth
 
-Peter	Kerins,	Research Assistant,	World Resources Institute
-
 David	Lindenbaum,	Principal Engineer,	CosmiQ Works
