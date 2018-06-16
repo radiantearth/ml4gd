@@ -1,8 +1,8 @@
 Chris:  What is the format we put the data in?
 
-		What is the basic/minimum fields to include?
+	What is the basic/minimum fields to include?
 
-		It will be basic, but required to make it adoptable.
+	It will be basic, but required to make it adoptable.
 
 David G: Do we want to have Data with labels? or with vectors? What is exactly training data?
 
