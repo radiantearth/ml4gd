@@ -1,4 +1,4 @@
-Chris:  What is the format we put the data in?
+Chris:  - What is the format we put the data in?
 
 - What is the basic/minimum fields to include?
 
