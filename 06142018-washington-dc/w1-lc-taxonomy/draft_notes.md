@@ -118,9 +118,7 @@ Attributes
 ***Key:*** 
 
 	x = Threshold of minimum vegetation
-
 	y = Threshold of minimum woody cover
-
 	z = Threshold of minimum tall woody height
 
 	p = Highest density threshold
