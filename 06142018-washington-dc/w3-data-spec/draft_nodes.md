@@ -74,7 +74,7 @@ How many times have you relabeled the same dataset. David 'I've traced boats of 
 
 Training dataset is 'just a vector representation' with a time stamp at a point in time. 
 
-	- Drew - if you have that but it doesn't map to any image then it's not useful for training an algorithm.
+- Drew - if you have that but it doesn't map to any image then it's not useful for training an algorithm.
 
 Ground truth vs 'training data'. Ground truth is 'real', and training data is that matched to a time. 
 
@@ -88,12 +88,13 @@ Mask R-CNN - does segmentation, straight to vector.
 
 Much easier to go from vector to raster than from raster back to vector. 
 	
-	Format for the core vectors. The equivalent for COG. 
-		- ideally be able to serve it up, but without needing a service. 
-		- vector format ideally has a geospatial hash, and ideally time hash.
-		- could do in vector tiles...
-		- just hash by centroid.
-		- gets complicated
+
+Format for the core vectors. The equivalent for COG. 
+- ideally be able to serve it up, but without needing a service. 
+- vector format ideally has a geospatial hash, and ideally time hash.
+- could do in vector tiles...
+- just hash by centroid.
+- gets complicated
 
 Core probably needs to be geojson. and then run service on top for 'query'. Use athena for slower stuff. SNS to keep a more active thing up to date. 
 	
@@ -104,10 +105,10 @@ Value in a 'static WFS', just set a collection thing.
 STAC asset of GeoJSON with all its associated geojson.
 
 Need a third item in the training data set - raster image + vector data + area labeled in the COG. 
-	- COuld be its own stac item with the footprint as the valid place. no need for a mask. 
+- COuld be its own stac item with the footprint as the valid place. no need for a mask. 
 
 
-	*CORE* 
+***CORE*** 
 
 A 'training data' is a STAC Item that has two required assets - the image that it is valid for and the geojson of the labels in it. 
 	
