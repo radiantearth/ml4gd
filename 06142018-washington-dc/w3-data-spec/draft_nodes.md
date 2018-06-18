@@ -8,41 +8,41 @@ David G: Do we want to have Data with labels? or with vectors? What is exactly t
 
 Rob: 	At Azavea raster vision has training chips separate from imagery, and then combines them and chips them. They live in separate places. 
 
-Decision to make - does it make sense to have a copy of the image and here's the training data. 
+- Decision to make - does it make sense to have a copy of the image and here's the training data. 
 
-Or have a trained item point at a particular image.
+- Or have a trained item point at a particular image.
 
 Drew: 	For this task we won't be doing object dection - won't have polygon pointing back at image. 
 
 Rob: 	Lablemaker - the mask is derived from vector.
 
-		Landcover / landclass will not be object based, and may not even be neural net.
+- Landcover / landclass will not be object based, and may not even be neural net.
 
-		Naive first pass - here is an image, here is a labeled array - matching hierarchy that people come up with.
+- Naive first pass - here is an image, here is a labeled array - matching hierarchy that people come up with.
 
-		- Is that derived from what's stored in the stack? Or do we do derivation first? 
+	- Is that derived from what's stored in the stack? Or do we do derivation first? 
 
 David: 	If you're trying to do a geospatial thing the imagery is not the thing. Not matched to a specific image - how do you solve the problem.
 
-  		- pre-chipping, 2012 national land classification - what would base level be of representing that as a standard to let people apply S1, S2, DG, Planet.
+- pre-chipping, 2012 national land classification - what would base level be of representing that as a standard to let people apply S1, S2, DG, Planet.
 
-		- base level is 'here is representation of truth' - valid for specific length of time, trust for X length of time. Here's how we labeled it, this is what the classes mean. Start there.
+- base level is 'here is representation of truth' - valid for specific length of time, trust for X length of time. Here's how we labeled it, this is what the classes mean. Start there.
 
-		- Geospatial file of some sort. What is area that is actually labeled. If you naively apply to north america - you need to know where to clip it to. 
+- Geospatial file of some sort. What is area that is actually labeled. If you naively apply to north america - you need to know where to clip it to. 
 
 Drew: 	Point about using different providers. This project is going to be sentinel based. 
 
-		- is labeled data stored separately or derived from 'truth' (A version of OSM).
+- is labeled data stored separately or derived from 'truth' (A version of OSM).
 
 David: 	Think of a tile server world - define vector, as people use it create a 'cache'. 
 
-		- creation of tile set takes time. You can tile it on your way, not holden to any specific ways
+- creation of tile set takes time. You can tile it on your way, not holden to any specific ways
 
 Rob: 	WFS with valid dates - do it on the fly 'give me label chips for everything in this area'. 
 
 Hamed: 	If we can make that connection we can do that separately. Time should be recorded.
 
-		- David: that is 'source' - how did I get this label?
+    - David: that is 'source' - how did I get this label?
 
 
 Two different types - wfs and tile services (raster). But even land class is 'feature' based.
