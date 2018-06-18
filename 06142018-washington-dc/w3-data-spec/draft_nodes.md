@@ -42,7 +42,8 @@ Rob: 	WFS with valid dates - do it on the fly 'give me label chips for everythin
 
 Hamed: 	If we can make that connection we can do that separately. Time should be recorded.
 
-    - David: that is 'source' - how did I get this label?
+- David: that is 'source' - how did I get this label?
+
 
 
 Two different types - wfs and tile services (raster). But even land class is 'feature' based.
@@ -63,17 +64,17 @@ What does it mean for the crowd to do image segmentation label?
 
 David: 	Argue against rasterize vector data for the 'truth'. 
 
-	Who has clicked pixels? No one wants to admit it. QGIS as points. Drew has a shoddy 'paint' thing. 
+- Who has clicked pixels? No one wants to admit it. QGIS as points. Drew has a shoddy 'paint' thing. 
 		
-		- Could be extracted as polygon. 
+	- Could be extracted as polygon. 
 		
-		- get in to pixel / gsd questions.
+	- get in to pixel / gsd questions.
 
 How many times have you relabeled the same dataset. David 'I've traced boats of panama 4 times, off of three images' - point, to length, to width. Nothing worse than finding a data set that is 'almost' good enough. Getting the data set wrong is costly. 
 
 Training dataset is 'just a vector representation' with a time stamp at a point in time. 
 
-		- Drew - if you have that but it doesn't map to any image then it's not useful for training an algorithm.
+	- Drew - if you have that but it doesn't map to any image then it's not useful for training an algorithm.
 
 Ground truth vs 'training data'. Ground truth is 'real', and training data is that matched to a time. 
 
