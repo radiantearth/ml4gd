@@ -162,15 +162,14 @@ Two required assets - associating
 
 
 
-#Example Training Data
+## Example Training Data
 
 ***STAC Training Data Item***
-https://spacenetchallenge.github.io/assets/docs/SpaceNetRoads_labeling_rules_v2.html
-https://spacenetchallenge.github.io/AOI_Lists/AOI_5_Khartoum.html
-https://github.com/SpaceNetChallenge/utilities/tree/spacenetV3/spacenetutilities/datasets/AOI_5_Khartoum
 
-  - SpaceNet AOI 5 - Khartoum
-  - Catalog ID: 104001000A6A1E00
-  - Image Time: 2015-04-13T08:18:08Z
+https://spacenetchallenge.github.io/assets/docs/SpaceNetRoads_labeling_rules_v2.html
+
+https://spacenetchallenge.github.io/AOI_Lists/AOI_5_Khartoum.html
+
+https://github.com/SpaceNetChallenge/utilities/tree/spacenetV3/spacenetutilities/datasets/AOI_5_Khartoum
 
 Example item published in: https://github.com/MLHubEarth/training-data-stac/tree/master/examples
