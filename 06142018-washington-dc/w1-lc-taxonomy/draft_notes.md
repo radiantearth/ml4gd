@@ -21,7 +21,7 @@ Yonah Bromberg Gaber (YBG), Platform Developer COmmunity Associate, Radiant.Eart
 
 	2.1. Build classes from defined attributes (Include Attributes vs just a class or legend class)
 
-		2.1.1. Adapt to any type of legend you have in the country
+	   2.1.1. Adapt to any type of legend you have in the country
 
 3. Add contextual information through time and space
 4. Certain Classes are temporally dependent
