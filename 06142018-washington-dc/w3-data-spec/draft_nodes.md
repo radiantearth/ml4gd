@@ -8,9 +8,9 @@ David G: Do we want to have Data with labels? or with vectors? What is exactly t
 
 Rob: 	At Azavea raster vision has training chips separate from imagery, and then combines them and chips them. They live in separate places. 
 
-	Decision to make - does it make sense to have a copy of the image and here's the training data. 
+Decision to make - does it make sense to have a copy of the image and here's the training data. 
 
-	Or have a trained item point at a particular image.
+Or have a trained item point at a particular image.
 
 Drew: 	For this task we won't be doing object dection - won't have polygon pointing back at image. 
 
