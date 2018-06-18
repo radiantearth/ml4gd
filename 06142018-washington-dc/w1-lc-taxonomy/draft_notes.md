@@ -12,17 +12,23 @@ Yonah Bromberg Gaber (YBG), Platform Developer COmmunity Associate, Radiant.Eart
 
 ***Assertions***	
 1. “Use” and “Cover” are two different class layers
+	
 	1.1. Every pixel has cover attributes
+	
 	1.2. Not every pixel has use attributes--always layered on top of cover
+
 2. LCCS (https://github.com/radiantearth/ml4gd/blob/master/06142018-washington-dc/w1-lc-taxonomy/LCCS_v3.0.pdf) makes a good first couple of dichotomous decisions - a type but not exact
+
 	2.1. Build classes from defined attributes (Include Attributes vs just a class or legend class)
+
 		2.1.1. Adapt to any type of legend you have in the country
+
 3. Add contextual information through time and space
 4. Certain Classes are temporally dependent
 5. Not tied to any sensor
 6. Geographic and thematic interests/scopes may change the taxonomy
 
-*** Questions for tomorrow***
+***Questions for tomorrow***
 1. What are the attributes?
 2. What are the uses?
 3. What are the physiognomic landforms?
