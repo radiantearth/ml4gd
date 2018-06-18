@@ -17,7 +17,7 @@ Yonah Bromberg Gaber (YBG), Platform Developer COmmunity Associate, Radiant.Eart
 	
 	1.2. Not every pixel has use attributes--always layered on top of cover
 
-2. LCCS [LCCS V3.0](LCCS_v3.0.pdf) makes a good first couple of dichotomous decisions - a type but not exact
+2. LCCS [(LCCS V3.0)](LCCS_v3.0.pdf) makes a good first couple of dichotomous decisions - a type but not exact
 
 	2.1. Build classes from defined attributes (Include Attributes vs just a class or legend class)
 
@@ -41,25 +41,37 @@ Yonah Bromberg Gaber (YBG), Platform Developer COmmunity Associate, Radiant.Eart
 
 
 MW: Start by looking what's out there and deciding from there, Maybe start with FAO.
+
 FAO LCCS "Cultivated and managed areas"
+
 Start with Binary: Vegetative/Non-Vegetative, aquatic/non-acquatic,etc, then go into madular/hierarchical
+
 
 Specifications: 10 m resolution of the map, then Categorical is okay
 
+
 CA: CCI Land Cover has eight classes
+
 Woodlands, shrublands, forest
+
 "The legend includes 10 generic classes that appropriately describe the land surface at 20m: "trees cover areas", "shrubs cover areas", "grassland", "cropland", "vegetation aquatic or regularly flooded", "lichen and mosses / sparse vegetation", "bare areas", "built up areas", "snow and/or ice" and "open water"." (http://2016africalandcover20m.esrin.esa.int/ ) 
 
+
 Wetlands/Watery shrubs are problematic, because it could be agriculture, etc. 
+
 Instead, wetland is a separate hydrological structure
+
 
 Aggregating up is part of it.
 
+
 MH: The problem with mosaic classes is that they aren't useful, too broad/
+
 MW: What about Savanna?
+
 MH: It's true, that we could have classes that are distinctly defined for physionomic properties, like forest as 5 m tall and falling. 
 
-## Level One: Primarily Vegetated/Primarily Non-Vegetated with a threshold of 4%
+***Level One: Primarily Vegetated/Primarily Non-Vegetated with a threshold of 4%***
 
 MF & MH: Map the life form and then map the use for terrestrial vegetation (Use as a separate)
 
@@ -72,12 +84,11 @@ TA: We have to make a distinction between a static class and a historically-infl
 
 MW: System of Environmental-Economic Accounting (SEEA) https://unstats.un.org/unsd/envaccounting/seearev/seea_cf_final_en.pdf (Annex 1.C, page 299)
 
-## LCCS-like will allow for dichotmous and then mediated decisions, then adding in contexts for time and spatial proximity
+***LCCS-like will allow for dichotmous and then mediated decisions, then adding in contexts for time and spatial proximity***
 
 
-L
 Mark's commnet:
-    - Who is the end user of the land cover map? That will inform land cover labels. 
+- Who is the end user of the land cover map? That will inform land cover labels. 
     
 
 -----------------------------------------------
@@ -87,32 +98,32 @@ Mark's commnet:
 Assumption: The land cover will be classified Annually; some decisions are dependent upon a year-long curve or annual maximums.
 
 Attributes
-	* Percent vegetation cover
-	* Percent Woody Cover
-	* Vegetation Height
-	* Percent of year that soil is sataurated
-	* Elevation
-	* Species
-	* Artificial (Cultivated)/(Semi)Natural
-	* Water/Bare Ground/Snow-Ice
-	* Annual(Seasonal)/Perennial(Evergreen)
-	* Broadleaf/Needleleaf
+- Percent vegetation cover
+- Percent Woody Cover
+- Vegetation Height
+- Percent of year that soil is sataurated
+- Elevation
+- Species
+- Artificial (Cultivated)/(Semi)Natural
+- Water/Bare Ground/Snow-Ice
+- Annual(Seasonal)/Perennial(Evergreen)
+- Broadleaf/Needleleaf
 
-*Schema
+## Schema
 
 
-Key: 
-x = Threshold of minimum vegetation
-y = Threshold of minimum woody cover
-z = Threshold of minimum tall woody height
-p = Highest density threshold
-q = Highest sparse threshold
-f = Soil saturation threshold
-W = % Woody Cover
-H = vegetation height
-V = % Vegetation cover
-S = % of year that soil is saturated
-E = Elevation
+***Key:*** 
+	x = Threshold of minimum vegetation
+	y = Threshold of minimum woody cover
+	z = Threshold of minimum tall woody height
+	p = Highest density threshold
+	q = Highest sparse threshold
+	f = Soil saturation threshold
+	W = % Woody Cover
+	H = vegetation height
+	V = % Vegetation cover
+	S = % of year that soil is saturated
+	E = Elevation
 
 Non-tree parameters:
 	* Species
