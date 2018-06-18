@@ -1,10 +1,17 @@
-Participants:
+***Participants:***
+
 Markus Walsh (MW), Senior Research Scientist, Selian Agricultural Research Institute
+
 Christoph Aubrecht (CA), ESA Representative at WB, European Space Agency
+
 Kevin Horn (KH), Ecosystem Ecologist / Remote Sensing Specialist, USAID
+
 Murali Krishna Gumma (MKG), Remote Sensing and GIS Scientist, CGIAR
+
 Tasso Azevedo (TA), Lead MapBiomas, MapBiomas
+
 Matt Hansen (MH), Professor, University of Maryland
+
 Yonah Bromberg Gaber (YBG), Platform Developer COmmunity Associate, Radiant.Earth
 
 
@@ -151,43 +158,43 @@ LC Tree: {Examples, with assumptions V = 10%, W = 10%, H = 5 m, }
  2.1. Woody (W > y% woody cover)
   2.1.1. Dense canopy cover (W > p)
    2.1.1.1. Tall (H > z meters) 
-					5. Cultivated {Eucalyptus Plantation, Walnuts, Almonds, Teak}
-					5. (Semi)Natural
-						6. Broadleaf
-							7. Seasonal {Miombo forest, Oak forest, Temperate deciduous forests, Chaco Woodland}
-							7. Evergreen {Rainforest}
-						6. Needleleaf
-							7. Seasonal  {Larch}
-							7. Evergreen {Pinelands, Spruce}
-				4. Short (H < z meters)
-					5. Cultivated {Citrus Orchard, apples, olives, tea}
-					5. (Semi)Natural {Chaparral}
-			3. Medium canopy cover (p > W > q)
-				4. Tall (Max height >z meters
-					5. Cultivated
-					5. (Semi)Natural
-						6. Broadleaf
-							7. Seasonal
-							7. Evergreen
-						6. Needleleaf
-							7. Seasonal
-							7. Evergreen
-				4. Short (Max height < z meters)
-					5. Cultivated
-					5. (Semi)Natural
-			3. Sparse canopy cover (q > W > y
-				4. Tall (Max height >z meters
-					5. Cultivated
-					5. (Semi)Natural
-						6. Broadleaf
-							7. Seasonal
-							7. Evergreen
-						6. Needleleaf
-							7. Seasonal
-							7. Evergreen
-				4. Short (Max height < z meters)
-					5. Cultivated
-					5. (Semi)Natural
+    2.1.1.1.1. Cultivated {Eucalyptus Plantation, Walnuts, Almonds, Teak}
+    2.1.1.1.2. (Semi)Natural
+     2.1.1.1.2.1. Broadleaf
+      2.1.1.1.2.1.1. Seasonal {Miombo forest, Oak forest, Temperate deciduous forests, Chaco Woodland}
+      2.1.1.1.2.1.2. Evergreen {Rainforest}
+     2.1.1.1.2.2. Needleleaf
+      2.1.1.1.2.2.1. Seasonal  {Larch}
+      2.1.1.1.2.2.2. Evergreen {Pinelands, Spruce}
+   2.1.1.2. Short (H < z meters)
+    Cultivated {Citrus Orchard, apples, olives, tea}
+    (Semi)Natural {Chaparral}
+  2.1.2. Medium canopy cover (p > W > q)
+   2.1.2.1. Tall (Max height >z meters
+    2.1.2.1.1. Cultivated
+    2.1.2.1.2. (Semi)Natural
+     2.1.2.1.2.1. Broadleaf
+      2.1.2.1.2.1.1. Seasonal
+      2.1.2.1.2.1.2. Evergreen
+     2.1.2.1.2.2. Needleleaf
+      2.1.2.1.2.2.1. Seasonal
+      2.1.2.1.2.2.2. Evergreen
+   2.1.2.2. Short (Max height < z meters)
+    2.1.2.2.1. Cultivated
+    2.1.2.2.2. (Semi)Natural
+  2.1.3. Sparse canopy cover (q > W > y
+   2.1.3.1. Tall (Max height >z meters
+    2.1.3.1.1. Cultivated
+    2.1.3.1.2. (Semi)Natural
+     2.1.3.1.2.1. Broadleaf
+      2.1.3.1.2.1.1. Seasonal
+      2.1.3.1.2.1.2. Evergreen
+     2.1.3.1.2.2. Needleleaf
+      2.1.3.1.2.2.1. Seasonal
+      2.1.3.1.2.2.2. Evergreen
+   2.1.3.2. Short (Max height < z meters)
+    2.1.3.2.1. Cultivated
+    2.1.3.2.2. (Semi)Natural
  2.2. Other (W < y% woody cover)
   2.2.1. Cultivated 
    2.2.1.1. Annual {Soybean, Maize, Wheat, Rice} 
