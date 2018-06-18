@@ -55,6 +55,10 @@
   - starting point: assess against existing LC maps
   - https://developmentseed.org/blog/2018/03/19/geo-diversity/
 
+
+![alt text](tsne.png)
+
+
 ***Other***
 - The ratio between smallest/largest, train/test number of class is constrained
 - Transfer learning using use-case-specific-data, from local crowdworkers trained with the taxonomy and representative data for each class, in a structured way to maintain quality, which is maintained.
