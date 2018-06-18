@@ -137,15 +137,23 @@ Attributes
 
 
 LC Tree: {Examples, with assumptions V = 10%, W = 10%, H = 5 m, }
-	1. Bare (Max Veg Year V < x%)
-		2. Water
-			3. Artificial Water {Dam, Impoundment, Channeling, Swimming Pools}
-			3. Natural Water {Ocean, River, Lake}
-		2. Bare Ground
-			3. Artificial {Buildings, Roads, Astroturf}
-			3. Natural {Rock, Bare soil, Lava}
-		2. Snow/Ice (Permanent)
-	1. Vegetated (Max Veg Year V > x%)
+```
+1. Bare (Max Veg Year V < x%)
+	
+	1.1. Water
+		1.1.1. Artificial Water {Dam, Impoundment, Channeling, Swimming Pools}
+	
+		1.1.2. Natural Water {Ocean, River, Lake}
+	
+	1.2. Bare Ground
+	
+		1.2.1. Artificial {Buildings, Roads, Astroturf}
+	
+		1.2.2. Natural {Rock, Bare soil, Lava}
+	
+	1.3. Snow/Ice (Permanent)
+
+2. Vegetated (Max Veg Year V > x%)
 		2. Woody (W > y% woody cover)
 			3. Dense canopy cover (W > p)
 				4. Tall (H > z meters) 
@@ -193,7 +201,7 @@ LC Tree: {Examples, with assumptions V = 10%, W = 10%, H = 5 m, }
 			3. (Semi)Natural
 				4. Annual {Annual Grasslands}
 				4. Perennial {Perennial Grasslands, Lichen, Moss}
-
+```
 Some notes:
 	- Designed to be the top level and translateable, so that refined details can be added in the cover classes.
 	- Designed for Global use, and requires annual data to determine maximums.
@@ -211,8 +219,9 @@ https://github.com/ISO-TC211/GOM/tree/master/isotc211_GOM_harmonizedOntology/191
 
 Top level: Vegetative or non-vegetative (Less than 10%)
 
---
-Collaborate seamlessly on documents! This pad text is synchronized as you type, so that everyone viewing this page sees the same text. 
-Create your own board and a (secret) name for it here: http://board.net This service is provided on fair-use with open source technology by fairkom. 
-Consider a donation in Euro or FairCoin https://www.fairkom.eu/en/sponsoring#Donations for disk space and new features. Virtual hug guaranteed! 
+
+
+
+
+
 
