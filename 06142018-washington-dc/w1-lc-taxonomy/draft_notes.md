@@ -139,19 +139,13 @@ Attributes
 LC Tree: {Examples, with assumptions V = 10%, W = 10%, H = 5 m, }
 ```
 1. Bare (Max Veg Year V < x%)
-	
-	1.1. Water
-		1.1.1. Artificial Water {Dam, Impoundment, Channeling, Swimming Pools}
-	
-		1.1.2. Natural Water {Ocean, River, Lake}
-	
-	1.2. Bare Ground
-	
-		1.2.1. Artificial {Buildings, Roads, Astroturf}
-	
-		1.2.2. Natural {Rock, Bare soil, Lava}
-	
-	1.3. Snow/Ice (Permanent)
+ 1.1. Water
+  1.1.1. Artificial Water {Dam, Impoundment, Channeling, Swimming Pools}	
+  1.1.2. Natural Water {Ocean, River, Lake}	
+ 1.2. Bare Ground	
+  1.2.1. Artificial {Buildings, Roads, Astroturf}	
+  1.2.2. Natural {Rock, Bare soil, Lava}	
+ 1.3. Snow/Ice (Permanent)
 
 2. Vegetated (Max Veg Year V > x%)
 		2. Woody (W > y% woody cover)
