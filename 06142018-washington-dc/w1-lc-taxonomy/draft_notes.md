@@ -8,7 +8,10 @@ Matt Hansen (MH), Professor, University of Maryland
 Yonah Bromberg Gaber (YBG), Platform Developer COmmunity Associate, Radiant.Earth
 
 
-#### Day 1 Consensus point:
+-----------------------------------------------
+Day 1 Consensus point:
+-----------------------------------------------
+
 
 ***Assertions***	
 1. “Use” and “Cover” are two different class layers
@@ -92,7 +95,7 @@ Mark's commnet:
     
 
 -----------------------------------------------
-*Day 2 Consensus
+Day 2 Consensus
 -----------------------------------------------
 
 Assumption: The land cover will be classified Annually; some decisions are dependent upon a year-long curve or annual maximums.
@@ -113,16 +116,27 @@ Attributes
 
 
 ***Key:*** 
+
 	x = Threshold of minimum vegetation
+
 	y = Threshold of minimum woody cover
+
 	z = Threshold of minimum tall woody height
+
 	p = Highest density threshold
+
 	q = Highest sparse threshold
+
 	f = Soil saturation threshold
+
 	W = % Woody Cover
+
 	H = vegetation height
+
 	V = % Vegetation cover
+
 	S = % of year that soil is saturated
+
 	E = Elevation
 
 Non-tree parameters:
