@@ -105,7 +105,7 @@ Value in a 'static WFS', just set a collection thing.
 STAC asset of GeoJSON with all its associated geojson.
 
 Need a third item in the training data set - raster image + vector data + area labeled in the COG. 
-- COuld be its own stac item with the footprint as the valid place. no need for a mask. 
+- Could be its own stac item with the footprint as the valid place. no need for a mask. 
 
 
 ***CORE*** 
@@ -117,44 +117,44 @@ There is a notion of 'ground truth' where the geojson comes from.
 Chips classification, will just be geojsons of boxes. 
 	
 
-	*Training Data Profile of STAC* 
-		Two required assets - associating
-•	
-•	
-•	Item Level:
-•	Assets - 2 required, the 'image' and the 'labels'
-•	Time - 
-•	Link - a required 'image source' relation to the metadata (ideally stac)
-•	Task: .
-•	Validation Type: 'None', 'human', 'crowd', 'expert'.
-•	Confidence
-•	Error - 0-1
-•	
-•	Collection Level:
-•	Confidence <string> - read up on the confidence.
-•	
-•	
-•	Label Asset
-•	- Label uncertainty
-•	
-•	(from group 2):
-•	  * contributor
-•	  * method (from image,, ground truth)
-•	  * date (that the label was made)
-•	  * location (just the json)
-•	  * scale
-•	  * quality / confidence (of the worker)
-•	  * training / test / validation data level?
-•	
-•	publishing new versions of the labeled data? 
-•	
-•	Updating of training dataset
-•	
-•	Are COG's required?
-•	 - should maybe not restrict all the way. LiDAR point cloud.
-•	 - COG strongly recommended. 
-•	 - But sometimes you can't go COG. Or I want it non ortho rectified. Need sensor model here. 
-•	
-•	PNG's that are usable in the main image page?
-•	 - No, but generate with label maker.
-•	 - local, link back to the geo world - is a tooling thing.
+
+***Training Data Profile of STAC*** 
+Two required assets - associating
+
+- Item Level:
+  - Assets - 2 required, the 'image' and the 'labels'
+  - Time - 
+  - Link - a required 'image source' relation to the metadata (ideally stac)
+  - Task: .
+  - Validation Type: 'None', 'human', 'crowd', 'expert'.
+  - Confidence
+  - Error - 0-1
+
+- Collection Level:
+  - Confidence <string> - read up on the confidence.
+
+
+- Label Asset
+  - Label uncertainty
+
+- (from group 2):
+  - contributor
+  - method (from image,, ground truth)
+  - date (that the label was made)
+  - location (just the json)
+  - scale
+  - quality / confidence (of the worker)
+  - training / test / validation data level?
+
+- publishing new versions of the labeled data? 
+
+- Updating of training dataset
+
+- Are COG's required?
+  - should maybe not restrict all the way. LiDAR point cloud.
+  - COG strongly recommended. 
+  - But sometimes you can't go COG. Or I want it non ortho rectified. Need sensor model here. 
+	
+- PNG's that are usable in the main image page?
+  - No, but generate with label maker.
+  - local, link back to the geo world - is a tooling thing.
