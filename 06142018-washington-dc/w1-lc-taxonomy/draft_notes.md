@@ -1,23 +1,33 @@
+Participants:
+Markus Walsh (MW), Senior Research Scientist, Selian Agricultural Research Institute
+Christoph Aubrecht (CA), ESA Representative at WB, European Space Agency
+Kevin Horn (KH), Ecosystem Ecologist / Remote Sensing Specialist, USAID
+Murali Krishna Gumma (MKG), Remote Sensing and GIS Scientist, CGIAR
+Tasso Azevedo (TA), Lead MapBiomas, MapBiomas
+Matt Hansen (MH), Professor, University of Maryland
+Yonah Bromberg Gaber (YBG), Platform Developer COmmunity Associate, Radiant.Earth
+
+
 #### Day 1 Consensus point:
 
 ***Assertions***
 	1. “Use” and “Cover” are two different class layers
-		2. Every pixel has cover attributes
-		2. Not every pixel has use attributes--always layered on top of cover
-	1. LCCS (https://github.com/radiantearth/ml4gd/blob/master/06142018-washington-dc/w1-lc-taxonomy/LCCS_v3.0.pdf) makes a good first couple of dichotomous decisions - a type but not exact
-		2. Build classes from defined attributes (Include Attributes vs just a class or legend class)
-			3. Adapt to any type of legend you have in the country
-	1. Add contextual information through time and space
-	1. Certain Classes are temporally dependent
-	1. Not tied to any sensor
-	1. Geographic and thematic interests/scopes may change the taxonomy
+		1.1. Every pixel has cover attributes
+		1.2. Not every pixel has use attributes--always layered on top of cover
+	2. LCCS (https://github.com/radiantearth/ml4gd/blob/master/06142018-washington-dc/w1-lc-taxonomy/LCCS_v3.0.pdf) makes a good first couple of dichotomous decisions - a type but not exact
+		2.1. Build classes from defined attributes (Include Attributes vs just a class or legend class)
+			2.1.1. Adapt to any type of legend you have in the country
+	3. Add contextual information through time and space
+	4. Certain Classes are temporally dependent
+	5. Not tied to any sensor
+	6. Geographic and thematic interests/scopes may change the taxonomy
 
 *** Questions for tomorrow***
 	1. What are the attributes?
-	1. What are the uses?
-	1. What are the physiognomic landforms?
-	1. How do attributes, uses, and landforms relate to each other?
-	1. ISO MUL/Standard around LCCS? (https://www.iso.org/standard/44342.html )
+	2. What are the uses?
+	3. What are the physiognomic landforms?
+	4. How do attributes, uses, and landforms relate to each other?
+	5. ISO MUL/Standard around LCCS? (https://www.iso.org/standard/44342.html )
 
 
 --------------------------------------
