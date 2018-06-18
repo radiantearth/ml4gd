@@ -148,9 +148,9 @@ LC Tree: {Examples, with assumptions V = 10%, W = 10%, H = 5 m, }
  1.3. Snow/Ice (Permanent)
 
 2. Vegetated (Max Veg Year V > x%)
-		2. Woody (W > y% woody cover)
-			3. Dense canopy cover (W > p)
-				4. Tall (H > z meters) 
+ 2.1. Woody (W > y% woody cover)
+  2.1.1. Dense canopy cover (W > p)
+   2.1.1.1. Tall (H > z meters) 
 					5. Cultivated {Eucalyptus Plantation, Walnuts, Almonds, Teak}
 					5. (Semi)Natural
 						6. Broadleaf
@@ -188,34 +188,26 @@ LC Tree: {Examples, with assumptions V = 10%, W = 10%, H = 5 m, }
 				4. Short (Max height < z meters)
 					5. Cultivated
 					5. (Semi)Natural
-		2. Other (W < y% woody cover)
-			3. Cultivated 
-				4. Annual {Soybean, Maize, Wheat, Rice} 
-				4. Perennial {Sugarcane}
-			3. (Semi)Natural
-				4. Annual {Annual Grasslands}
-				4. Perennial {Perennial Grasslands, Lichen, Moss}
+ 2.2. Other (W < y% woody cover)
+  2.2.1. Cultivated 
+   2.2.1.1. Annual {Soybean, Maize, Wheat, Rice} 
+   2.2.1.2. Perennial {Sugarcane}
+  2.2.2. (Semi)Natural
+   2.2.2.1. Annual {Annual Grasslands}
+   2.2.2.2. Perennial {Perennial Grasslands, Lichen, Moss}
 ```
 Some notes:
-	- Designed to be the top level and translateable, so that refined details can be added in the cover classes.
-	- Designed for Global use, and requires annual data to determine maximums.
+- Designed to be the top level and translateable, so that refined details can be added in the cover classes.
+- Designed for Global use, and requires annual data to determine maximums.
 
 
------------------------------------------------------
 
 When it comes to metadata, particularly with temporal/spatial scale. Should that be included or not? 
 
-## Attributes is okay to use
+***Attributes is okay to use***
 
 MW, MH: Distinguishing between land cover and land use is too impractical, requires too many attributes
 
 https://github.com/ISO-TC211/GOM/tree/master/isotc211_GOM_harmonizedOntology/19144-2/2012
 
 Top level: Vegetative or non-vegetative (Less than 10%)
-
-
-
-
-
-
-
