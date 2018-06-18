@@ -210,7 +210,7 @@
   - change important characteristic
   - traditional ML not solution (features)
   - temporal info
-  - ML sensitive to traiinng
+  - ML sensitive to training
   - best features req help
   - high quality training data hard
   - img interp non-triviail
@@ -281,20 +281,8 @@
 
 ## Lightning Talks 
 
-
-
-Murali Krishna Gumma (MKG), Remote Sensing and GIS Scientist, CGAIR
-Ryan Engstorm (RE), Professor, The George Washington University 
-Aislinn Pearson (AP), Head of Product Development, Innovative Solutions for Decision Agriculture
-Drew Bollinger (DB), Developer, Development Seed/Synergise
-James Gill (JG), Data Scientist, Facebook 
-Markus Walsh (MW), Senior Research Scientist, Selian Agricultural Research Institute 
-Rob Emanuele (RE), VP of Research, Azavea
-David Grason (DG), Senior Manager, Platform Analytics, DigitalGlobe
-David Lindenbaum (DL), Principal Engineer, CosmiQ Works
-
 ***Lyndon Estes (LE), Assistant Professor, Clark University: 
-Integrating HUmans and Machines to Map Smallholder-Domianted Agricultural Frontiers***
+Integrating Humans and Machines to Map Smallholder-Domianted Agricultural Frontiers***
 
 - problem: cropland maps inaccurate
 - approach: active learning, human label -> train & predict (ranked by uncertainty) -> new training samples from most uncertain -> human labels...
@@ -319,114 +307,131 @@ Cloud Annalytics in NASA's Earth Science Data System***
   - wide DL against NASA
 - Challenge: lack of sufficient training data
 
-MKG: Geospatial activities & ICRISAT
-•	5 major products: LUC, crop land changes in S. Asia, Africa, legth of growing periods, crop intensity (S. Asia)
-•	ML: GEE, Sentinel & Landsat. 30m croplands product
-•	GEE public data catalog
-•	irrigated vs. rainfed cropland @ 30m in S. Asia
-•	Challenges: limited ground data
-•	Semi-automated techniques: (SMTs) spectral signatures --> mapping cropland areas, with automated decision trees
-•	Spatial distribution of croplannds: last 5 years, 27 classses
-•	Spatial distribution of rice & wheat, major dryland crops (13-14)
+***Murali Krishna Gumma (MKG), Remote Sensing and GIS Scientist, CGAIR: 
+Geospatial activities & ICRISAT***
 
-RE: Using High Spatial Resolution Satellite Imagery for Estimating Economica Well-being and Population in Sri Lanka
-•	Motivation: what does poverty/population look like in imagery? WB wannts more accurate products
-•	predict poverty, estimate pop
-•	Sri Lankan Data: 2012 census, 10k people, to mask & household income survey
-•	Imagery Data: purchased high res DG, 0.5m, 3500 sq km, $50k
-•	Orbital Insight: DCNN, LandInfo: seg, GW: spatial & textural features
-•	Modelling: >300 variables, poverty: avg log of consumption & # ppl at 10% poverty, Pop density
-•	Regression (Lasso) with economists & RFs as a check
-•	Post-Lasso Model Estimates: down to 27 variables, linear OLS model
-•	poverty r-squared 0.6 pretty good, avg log of consumption similar
-•	Scaling up census from survey: take survey and sample and predict out?
-o	tree cover, elevation, built up (FB, other free data)
-o	Poisson, Lasso, RF
-•	Accuracy of predictions of GN pop density using Survey Data and Imagery Derived Features: 0.8 density, 0.6 pop
-•	Challenge: how to operationalize, scale?
-•	Q: what RS features predictive? A: spatial (building structures), building count, roads, road width. NDVI high in cities & wealthy, low else.
-•	Q: undercounts with official gov't stats (Tamil minority)? A: not in this work, but seen undercount in other work. huge change in poverty rate.
+- 5 major products: LUC, crop land changes in S. Asia, Africa, legth of growing periods, crop intensity (S. Asia)
+- ML: GEE, Sentinel & Landsat. 30m croplands product
+- GEE public data catalog
+- irrigated vs. rainfed cropland @ 30m in S. Asia
+- Challenges: limited ground data
+- Semi-automated techniques: (SMTs) spectral signatures --> mapping cropland areas, with automated decision trees
+- Spatial distribution of croplannds: last 5 years, 27 classses
+- Spatial distribution of rice & wheat, major dryland crops (13-14)
 
-AP: ISDA Data Scale Impact
-•	startup with Gates Foundation funding
-•	AfSIS
-o	Phase I. Digital Soil Property Maps of Africa
-o	Phase II: National for Ghana, Ethiopia, Kenya, Tanzania.
-•	Workflow: RS covariates, legacy data rescue & new soil spectral diagnostics ($2.15 vs. $80-120/sample)
-•	soil property maps hosted by ESRI, into Radiant
-•	Challenge: get user communities of university graduates to add data
-•	Challenge: want to know which crops & where, yield, mgmt interventions
-•	Question: What do data standards need to look like? >20k in-field soil samples relatively standardized, across locations. moving into land use/crop type.
-•	Goal: decision platform, with natl/ref/commer labs, & govts
-•	Challenge: financial stability, data sharing, public goods (cost for revenue generation)
-•	collecting validation data expensive, business model to pay back costs?
-•	Q: Afr Reg Data Cube? A: yes
+***Ryan Engstorm (RE), Professor, The George Washington University: 
+Using High Spatial Resolution Satellite Imagery for Estimating Economica Well-being and Population in Sri Lanka***
 
-DB: ML at DevSeed
-•	Projects:
-o	road detection with world bank, SegNet called SkyNet, open infra, pulling labels from OSM
-o	approach for human assisted mapping: WB, Pakistan/Nigeria/Zambia DNN for electricity infra (80-85% acc, small data), used by mapping
-o	UrChn: OSM density, own building detection models, diff for OSM completeness
-o	DL based Hurriane Intensity Estimator: wind speed, with NASA, live pipeline based on Cumulus framework
-o	LC project: WRI in Kenya, Uganda, Malawi, some of 2016 Sentinel-derived LC maps, also historical LC classification from older img, have humans validate for RF
-•	Tools
-o	building detection alg on google deeplab v3 architecture (powering UrChn), futuer OSM completeness
-o	label-maker: training data from OSM
-o	Challenge: western-centric training data for high-rez
-o	human curation of labeled data sets: in-browser prediction map
+- Motivation: what does poverty/population look like in imagery? WB wannts more accurate products
+- predict poverty, estimate pop
+- Sri Lankan Data: 2012 census, 10k people, to mask & household income survey
+- Imagery Data: purchased high res DG, 0.5m, 3500 sq km, $50k
+- Orbital Insight: DCNN, LandInfo: seg, GW: spatial & textural features
+- Modelling: >300 variables, poverty: avg log of consumption & # ppl at 10% poverty, Pop density
+- Regression (Lasso) with economists & RFs as a check
+- Post-Lasso Model Estimates: down to 27 variables, linear OLS model
+- poverty r-squared 0.6 pretty good, avg log of consumption similar
+- Scaling up census from survey: take survey and sample and predict out?
+  - tree cover, elevation, built up (FB, other free data)
+  - Poisson, Lasso, RF
+- Accuracy of predictions of GN pop density using Survey Data and Imagery Derived Features: 0.8 density, 0.6 pop
+- Challenge: how to operationalize, scale?
+- Q: what RS features predictive? A: spatial (building structures), building count, roads, road width. NDVI high in cities & wealthy, low else.
+- Q: undercounts with official gov't stats (Tamil minority)? A: not in this work, but seen undercount in other work. huge change in poverty rate.
 
-JG (Facebook Infrastructure) Conneting the World with Spatial Computing
-•	Infrastructure: Unequal Distribution. almost 50% unconnected to Internet, ~25% no electricity, access to priorities
-•	Questions: where people? roads (OSM)? greatest needs?
-•	people? population density
-o	CNN on DG 50cm w pop datasets from seasons (CU), highest-res pop maps, released when possible through columbia
-o	previous state of art: too coarse to be useful, census block, can't answer many questions. 30m grid for building footprints
-o	shines at finding isolated buildings in rural areas
-•	roads? critical, open street maps
-o	less than 1/2 roads of google maps in OSM
-o	DG & NN to find roads, w OSM, contribute back to edit, validate faster
-o	SInce May 2017, many provices in South Thailand completed
-o	small roads and alleywas missed by traditional
-o	Gates, Red Cross, World Bank, UNICEF, CSIP, WFP
-•	Q: country-by-country? A: yes, would like global, roads longer bc segmentation --> network is work
-•	Q: when is imagery from? A: mosiac from DG
-•	Q: buillding pop? A: Columbia CSIN [new Grid3 refinining census data], but some census not reliable
+***Aislinn Pearson (AP), Head of Product Development, Innovative Solutions for Decision Agriculture:
+ISDA Data Scale Impact***
 
-MW: Land cover/use classification with GeoSurvey & ML
-•	info sparse, global models ok for crops, little land data for 30M sq km
-•	System of Environmental-Economic Accounting (SEEA): standardize cropland assessments, monitoring
-•	GeoSurvey: "croplands present"? to tag 100k locations across Africa, http://geosurvey.ged.ai, can run APIs on img, can specify survey
-•	paddy rice easy to tag, requires paddy buns & infra. vegetation counts & cover estimates
-•	last 4 months: 2018 survey campaign, Malawi, Ethiopia, Nigeria, Ghana. proportial sample frame, 500k locs
-•	GeoSurvey: ensemble prediction workflow: http://github.com/mgwalsh/Cropland-Atlas, reference labels, vetted labels, gridded features, into model calibration & stacking (RF, GB, BART, regularized regression)
-•	Results 2015. p(Croplands present?), fast for prior probabilties, 1M observations
-•	Tanzania predictions 18 http://github.com/mgwalsh/Cropland-Atlas, "woddy cover in croplands" --> building mask (in croplands), for field teams
+- startup with Gates Foundation funding
+- AfSIS
+  - Phase I. Digital Soil Property Maps of Africa
+  - Phase II: National for Ghana, Ethiopia, Kenya, Tanzania.
+- Workflow: RS covariates, legacy data rescue & new soil spectral diagnostics ($2.15 vs. $80-120/sample)
+- soil property maps hosted by ESRI, into Radiant
+- Challenge: get user communities of university graduates to add data
+- Challenge: want to know which crops & where, yield, mgmt interventions
+- Question: What do data standards need to look like? >20k in-field soil samples relatively standardized, across locations. moving into land use/crop type.
+- Goal: decision platform, with natl/ref/commer labs, & govts
+- Challenge: financial stability, data sharing, public goods (cost for revenue generation)
+- collecting validation data expensive, business model to pay back costs?
+- Q: Afr Reg Data Cube? A: yes
 
-RE: Azavea
-•	geospatial software in Azavea, B-Corp, advance state of art in geospatial tech, apply for civic, social env impact i.e. Radiant Earth and OS tools/libraries (GeoTrellis Spark, Raster-VIsion DL, Raster Foundry platform)
-•	img agnostic, skin to own brand like Radiant.Earth platform, remote sensing indexing through visual workflows & change detection
-•	Challenge: ML workflows, tooling for annotating obj detecting bboxes, but validatinng, understanding img scores, into info feeds
-•	need to build training sets with annotation tooling that's iterative, discovery process of class variety
-•	LC: Potsdam semseg, prototypes of model exploration i.e. FCN with elevation vs. label layers, into platform and OS http://potsdam.geotrellis.io discovers food trucks and rare cases, how to decide
-•	sem seg is hardest thing to label, high quality data: do we need to start with semseg, or can we work on chip clasification/object detection?
+***Drew Bollinger (DB), Developer, Development Seed/Synergise:
+ML at DevSeed***
 
-DG: GLobal Land Cover Classification
-•	GBDX at DG, run algs at scale
-•	(Un)Supervised LULC, model catalog, automating supervised LULC
-•	Supervised: high-rez, acc product, different supported sensors, train system on GDBX, draw polygons, iterate model creation/generation, product
-•	Geoscape LULC categories: continent of Australia, stringent accuracy spec, team building
-•	Unsupervised data hard, run at continental scale (Russia, China, Africa) https://gbdxdocs.digitalglobe.com/docs/automated-land-cover-classification-1
-•	Model Catalog: store models, search models: regionality, seasonality, sensor, text
-•	Automating supervised LULC: model per biome, per season; load to ModelCatalog; pull model at runtime by regionality, seasonality
-•	Other stuff: same, for object detection of ships, planes, cars, roads
+- Projects:
+  - road detection with world bank, SegNet called SkyNet, open infra, pulling labels from OSM
+  - approach for human assisted mapping: WB, Pakistan/Nigeria/Zambia DNN for electricity infra (80-85% acc, small data), used by mapping
+  - UrChn: OSM density, own building detection models, diff for OSM completeness
+  - DL based Hurriane Intensity Estimator: wind speed, with NASA, live pipeline based on Cumulus framework
+  - LC project: WRI in Kenya, Uganda, Malawi, some of 2016 Sentinel-derived LC maps, also historical LC classification from older img, have humans validate for RF
+- Tools
+  - building detection alg on google deeplab v3 architecture (powering UrChn), futuer OSM completeness
+  - label-maker: training data from OSM
+  - Challenge: western-centric training data for high-rez
+  - human curation of labeled data sets: in-browser prediction map
 
-DL: Accelerating Geospatial ML
-•	SpaceNet 2.5 years ago: larger CV community focused on RS, sat img
-•	no public data. SpaceNet high rez imagery and labels.
-•	Making Remote Sensing Analytics Accessible: data (every quarter, year), tools (geospatial into CV, projections into pixels, bands & format), code (internal benchmarks), competitions (cash prizes, code must be open sourced)
-•	released data sets: 1TB of high rez, 8-band, 5 cities, ~0.5M building footprint, 8k km road labels, 3 competitions, 100k prizes, OS 13 algs. 42 TB downloaded, 180-200 unique users/week.
-•	4 cities focus: Las Vegas, Paris, Shanghai, Khartoum http://spacenetchallenge.github.com
-•	Providing open access to geospatial labeled trainning data: 200m x 200m GeoTiff chips, building footprint labels in GeoJson
-•	road: 300m x 300m GeoTiff chips, large CV, small RS img size
-•	upcoming: new data, off nadir analysis sept 2018, road winter 2018
+***James Gill (JG), Data Scientist, Facebook: 
+Facebook Infrastructure:Conneting the World with Spatial Computing***
 
+- Infrastructure: Unequal Distribution. almost 50% unconnected to Internet, ~25% no electricity, access to priorities
+- Questions: where people? roads (OSM)? greatest needs?
+- people? population density
+  - CNN on DG 50cm w pop datasets from seasons (CU), highest-res pop maps, released when possible through columbia
+  - previous state of art: too coarse to be useful, census block, can't answer many questions. 30m grid for building footprints
+  - shines at finding isolated buildings in rural areas
+- roads? critical, open street maps
+  - less than 1/2 roads of google maps in OSM
+  - DG & NN to find roads, w OSM, contribute back to edit, validate faster
+  - SInce May 2017, many provices in South Thailand completed
+  - small roads and alleywas missed by traditional
+  - Gates, Red Cross, World Bank, UNICEF, CSIP, WFP
+- Q: country-by-country? A: yes, would like global, roads longer bc segmentation --> network is work
+- Q: when is imagery from? A: mosiac from DG
+- Q: buillding pop? A: Columbia CSIN [new Grid3 refinining census data], but some census not reliable
+
+***Markus Walsh (MW), Senior Research Scientist, Selian Agricultural Research Institute:
+Land cover/use classification with GeoSurvey & ML***
+
+- info sparse, global models ok for crops, little land data for 30M sq km
+- System of Environmental-Economic Accounting (SEEA): standardize cropland assessments, monitoring
+- GeoSurvey: "croplands present"? to tag 100k locations across Africa, http://geosurvey.ged.ai, can run APIs on img, can specify survey
+- paddy rice easy to tag, requires paddy buns & infra. vegetation counts & cover estimates
+- last 4 months: 2018 survey campaign, Malawi, Ethiopia, Nigeria, Ghana. proportial sample frame, 500k locs
+- GeoSurvey: ensemble prediction workflow: http://github.com/mgwalsh/Cropland-Atlas, reference labels, vetted labels, gridded features, into model calibration & stacking (RF, GB, BART, regularized regression)
+- Results 2015. p(Croplands present?), fast for prior probabilties, 1M observations
+- Tanzania predictions 18 http://github.com/mgwalsh/Cropland-Atlas, "woddy cover in croplands" --> building mask (in croplands), for field teams
+
+***Rob Emanuele (RE), VP of Research, Azavea:
+Azavea***
+
+- geospatial software in Azavea, B-Corp, advance state of art in geospatial tech, apply for civic, social env impact i.e. Radiant Earth and OS tools/libraries (GeoTrellis Spark, Raster-VIsion DL, Raster Foundry platform)
+- img agnostic, skin to own brand like Radiant.Earth platform, remote sensing indexing through visual workflows & change detection
+- Challenge: ML workflows, tooling for annotating obj detecting bboxes, but validatinng, understanding img scores, into info feeds
+- need to build training sets with annotation tooling that's iterative, discovery process of class variety
+- LC: Potsdam semseg, prototypes of model exploration i.e. FCN with elevation vs. label layers, into platform and OS http://potsdam.geotrellis.io discovers food trucks and rare cases, how to decide
+- sem seg is hardest thing to label, high quality data: do we need to start with semseg, or can we work on chip clasification/object detection?
+
+***David Grason (DG), Senior Manager, Platform Analytics, DigitalGlobe: 
+GLobal Land Cover Classification***
+
+- GBDX at DG, run algs at scale
+- (Un)Supervised LULC, model catalog, automating supervised LULC
+- Supervised: high-rez, acc product, different supported sensors, train system on GDBX, draw polygons, iterate model creation/generation, product
+- Geoscape LULC categories: continent of Australia, stringent accuracy spec, team building
+- Unsupervised data hard, run at continental scale (Russia, China, Africa) https://gbdxdocs.digitalglobe.com/docs/automated-land-cover-classification-1
+- Model Catalog: store models, search models: regionality, seasonality, sensor, text
+- Automating supervised LULC: model per biome, per season; load to ModelCatalog; pull model at runtime by regionality, seasonality
+- Other stuff: same, for object detection of ships, planes, cars, roads
+
+***David Lindenbaum (DL), Principal Engineer, CosmiQ Works:
+Accelerating Geospatial ML***
+
+- SpaceNet 2.5 years ago: larger CV community focused on RS, sat img
+- no public data. SpaceNet high rez imagery and labels.
+- Making Remote Sensing Analytics Accessible: data (every quarter, year), tools (geospatial into CV, projections into pixels, bands & format), code (internal benchmarks), competitions (cash prizes, code must be open sourced)
+- released data sets: 1TB of high rez, 8-band, 5 cities, ~0.5M building footprint, 8k km road labels, 3 competitions, 100k prizes, OS 13 algs. 42 TB downloaded, 180-200 unique users/week.
+- 4 cities focus: Las Vegas, Paris, Shanghai, Khartoum http://spacenetchallenge.github.com
+- Providing open access to geospatial labeled trainning data: 200m x 200m GeoTiff chips, building footprint labels in GeoJson
+- road: 300m x 300m GeoTiff chips, large CV, small RS img size
+- upcoming: new data, off nadir analysis sept 2018, road winter 2018
