@@ -17,7 +17,7 @@ Yonah Bromberg Gaber (YBG), Platform Developer COmmunity Associate, Radiant.Eart
 	
 	1.2. Not every pixel has use attributes--always layered on top of cover
 
-2. LCCS (https://github.com/radiantearth/ml4gd/blob/master/06142018-washington-dc/w1-lc-taxonomy/LCCS_v3.0.pdf) makes a good first couple of dichotomous decisions - a type but not exact
+2. LCCS (LCCS_v3.0.pdf) makes a good first couple of dichotomous decisions - a type but not exact
 
 	2.1. Build classes from defined attributes (Include Attributes vs just a class or legend class)
 
