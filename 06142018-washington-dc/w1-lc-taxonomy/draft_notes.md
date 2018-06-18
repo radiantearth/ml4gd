@@ -115,34 +115,26 @@ Attributes
 ## Schema
 
 
-***Key:*** 
-
+### Key:
 	x = Threshold of minimum vegetation
 	y = Threshold of minimum woody cover
 	z = Threshold of minimum tall woody height
-
 	p = Highest density threshold
-
 	q = Highest sparse threshold
-
 	f = Soil saturation threshold
-
 	W = % Woody Cover
-
 	H = vegetation height
-
 	V = % Vegetation cover
-
 	S = % of year that soil is saturated
-
 	E = Elevation
 
-Non-tree parameters:
-	* Species
-	* Elevation
-	* Wetland
-		* Yes (S > f)
-		* No (S < f)
+***Non-tree parameters:***
+- Species
+  - Elevation
+  - Wetland
+    - Yes (S > f)
+	- No (S < f)
+
 
 LC Tree: {Examples, with assumptions V = 10%, W = 10%, H = 5 m, }
 	1. Bare (Max Veg Year V < x%)
