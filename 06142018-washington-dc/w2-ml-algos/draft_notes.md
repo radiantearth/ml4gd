@@ -1,4 +1,4 @@
-### Questions for WG 2
+#### Questions for WG 2
 
 1.	How to improve the quality/quantity of training data? (How do we quantify tradeoff?)
 
@@ -10,18 +10,18 @@
 
 5.	(How do you choose loss functions that relate class similarities to wrongness?)
 
-### Questions for WG 3 
+#### Questions for WG 3 
 
 1.	How do you maintain datasets across time and space for change tracking #WG3?
 
 2.	How do we track data provenance over the course of training (data, labels) #WG3?
 
-### Definitions
+#### Definitions
 - Stat vs. ML
 - Traditional methods (feature engineering) vs. DL (none)
 - White box vs. black box
 
-1. How to improve the quality/quantity of training data? (How do we quantify tradeoff?)
+***1. How to improve the quality/quantity of training data? (How do we quantify tradeoff?)***
 - minimum standard information
   - metadata/provenance
   - contributor
