@@ -82,7 +82,7 @@
   - note taking on board.net, general and working group
   - slack group
 
-### Plenary: Perspectives on Advancing LC Classifications for Machine Learning   
+## Plenary: Perspectives on Advancing LC Classifications for Machine Learning   
 
 ***Moderator: Anne Hale Miglarese (AHM), CEO, Radiant.Earth Speakers (15 min each):***
 
@@ -247,7 +247,7 @@
 - always reference data collection
 
 
-***Chris Holmes (CH), Product Manager, Planet; and Technical Fellow, Radiant.Earth ***
+***Chris Holmes (CH), Product Manager, Planet; and Technical Fellow, Radiant.Earth***
 - training data for ML
 - geospatial background, how to build core accessible infra from  EO for ML
   - open ML frameworks and models, but unreasonable effectiveness of data (Google has 300x ImageNet)
@@ -279,11 +279,10 @@
 
 
 
-11:00 Lightning Talks 
-                                        
-Speakers (5 min + 2 min Q&A each):
-Lyndon Estes (LE), Assistant Professor, Clark University
-Christopher Lynnes (CL), EOSDIS System Architect, NASA
+## Lightning Talks 
+
+
+
 Murali Krishna Gumma (MKG), Remote Sensing and GIS Scientist, CGAIR
 Ryan Engstorm (RE), Professor, The George Washington University 
 Aislinn Pearson (AP), Head of Product Development, Innovative Solutions for Decision Agriculture
@@ -294,27 +293,31 @@ Rob Emanuele (RE), VP of Research, Azavea
 David Grason (DG), Senior Manager, Platform Analytics, DigitalGlobe
 David Lindenbaum (DL), Principal Engineer, CosmiQ Works
 
-LE: Integrating HUmans and Machines to Map Smallholder-Domianted Agricultural Frontiers
-•	problem: cropland maps inaccurate
-•	approach: active learning, human label -> train & predict (ranked by uncertainty) -> new training samples from most uncertain -> human labels...
-•	human component: crowdsourcing platform (Agircultural Mapping Platform)
-•	accuracy assessment & consensus labelling (vs. reference maps), consensus labels (bayesian model averaging)
-•	Machine component: featuer selection (CV), ML classifier (RF)
-•	WorldView-2 accuracy >0.9 AUC, generalizable
-•	key lesson: active learning more efficient, higher accuracy (faster convergence), much fewer training sites
-•	current: Omidyar-funded, operationalize & improve AL, segment maps, demonstrate over Ghana
-o	actiev learning optimized training sample for MASKRCNN
+***Lyndon Estes (LE), Assistant Professor, Clark University: 
+Integrating HUmans and Machines to Map Smallholder-Domianted Agricultural Frontiers***
 
-CL: Cloud Annalytics in NASA's Earth Science Data System
-•	context: program for science research, more into apps with largest repo of multivariate heterogenous data
-•	EOSDIS: data & info system, stores and distributes
-•	projected data volumes: 200 PBs in 2020 from SAR...
-•	Distribution increases similarity to cumulative volume
-•	Solution: data-proximal analysis
-•	Open Pipeline enables integration with exploitation platforms (Cumulus Data Archive ... --> ... Analytics Optimized Data Store value chainn, XaaS)
-•	NASA Workshop (Feb 18): Enabling analytics in the cloud for earth science data
-o	wide DL against NASA
-•	Challenge: lack of sufficient training data
+- problem: cropland maps inaccurate
+- approach: active learning, human label -> train & predict (ranked by uncertainty) -> new training samples from most uncertain -> human labels...
+- human component: crowdsourcing platform (Agircultural Mapping Platform)
+- accuracy assessment & consensus labelling (vs. reference maps), consensus labels (bayesian model averaging)
+- Machine component: featuer selection (CV), ML classifier (RF)
+- WorldView-2 accuracy >0.9 AUC, generalizable
+- key lesson: active learning more efficient, higher accuracy (faster convergence), much fewer training sites
+- current: Omidyar-funded, operationalize & improve AL, segment maps, demonstrate over Ghana
+  - active learning optimized training sample for MASKRCNN
+
+***Christopher Lynnes (CL), EOSDIS System Architect, NASA: 
+Cloud Annalytics in NASA's Earth Science Data System***
+
+- context: program for science research, more into apps with largest repo of multivariate heterogenous data
+- EOSDIS: data & info system, stores and distributes
+- projected data volumes: 200 PBs in 2020 from SAR...
+- Distribution increases similarity to cumulative volume
+- Solution: data-proximal analysis
+- Open Pipeline enables integration with exploitation platforms (Cumulus Data Archive ... --> ... Analytics Optimized Data Store value chainn, XaaS)
+- NASA Workshop (Feb 18): Enabling analytics in the cloud for earth science data
+  - wide DL against NASA
+- Challenge: lack of sufficient training data
 
 MKG: Geospatial activities & ICRISAT
 •	5 major products: LUC, crop land changes in S. Asia, Africa, legth of growing periods, crop intensity (S. Asia)
