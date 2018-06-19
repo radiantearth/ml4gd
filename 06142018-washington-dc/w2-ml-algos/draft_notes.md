@@ -49,7 +49,7 @@
 - Ground to action chain as accurate as possible.
 
 ***2. What should be the metric for measuring training and testing data diversity? (How do decide splits?)***
-- class dependent representiveness
+- class dependent representativeness
   - geographical/regional (intraclass variety)
   - spatially/temporally scaled, by class 
   - starting point: assess against existing LC maps
@@ -77,13 +77,13 @@
   - question: agri/not global, and specific classes regional?
   - map model & covariance, just another input layer that you're predicting
   - larger training set for the whole model, rather than splitting up
-- iteration and adjustment of methods (to address problem areas, guide new traininig sample collectionn)
+- iteration and adjustment of methods (to address problem areas, guide new training sample collection)
 - appropriate class balance/weight (rule of thumb might emerge, over/undersamlple under/over represented)
 - DL - different spatial strategy (large enough window size, like 512 px)
 - combination rules
   - adjacency
-  - class combine on the same map --> lowest commision error
-- accuracy reporting standard/commission/ommission (Olaffson)
+  - class combine on the same map --> lowest commission error
+- accuracy reporting standard/commission/omission (Olaffson)
   - ***Like ICCC climate models, described for development field, more categorical like high/medium/low***
     - could be done through likelihoods, relative likelihoods
     - producer/user error/confusion error
@@ -91,7 +91,7 @@
 - map model metadata
 - ensembling is common practice in climate models/species distribution models
   - mean prediction is more accurate than single prediction of any model
-  - appropriate merging procedure/Bayaesian merging
+  - appropriate merging procedure/Bayesian merging
   - competitions won
   - if models very complimentary (specific, sensitive), better model, often
   - FAO LC map already map/class, merge
@@ -102,7 +102,7 @@
   - important to have date of label
 
 ***How to increase accuracy of training labels?***
-- completeness/represnetitiveness of training samples may be harder to ensure than accuracy
+- completeness/representativeness of training samples may be harder to ensure than accuracy
 - consensus approach  --> ordinal ranking (Agreement-based methods & Embedded gold standard)
   - individual worker accuracy or expert (like OSM)
 - training for crowdsourcers (for all classes they will label, for variability of class) - simple instructions

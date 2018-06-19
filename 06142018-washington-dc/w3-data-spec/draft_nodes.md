@@ -12,7 +12,7 @@ Rob: 	At Azavea raster vision has training chips separate from imagery, and then
 
 - Or have a trained item point at a particular image.
 
-Drew: 	For this task we won't be doing object dection - won't have polygon pointing back at image. 
+Drew: 	For this task we won't be doing object detection - won't have polygon pointing back at image. 
 
 Rob: 	Lablemaker - the mask is derived from vector.
 
@@ -52,7 +52,7 @@ Have exact time stamp of where you saw that. Can use composite imagery (6 month 
 
 Dynamic data like crop - can be different. 
 
-WIth revisit hierarchy gets deeper - crop levels, 'early wheat' vs 'late wheat'. 
+With revisit hierarchy gets deeper - crop levels, 'early wheat' vs 'late wheat'. 
 
 Discussion of data that is 'true' because it was gathered on the ground. 
 
@@ -78,7 +78,7 @@ Training dataset is 'just a vector representation' with a time stamp at a point 
 
 Ground truth vs 'training data'. Ground truth is 'real', and training data is that matched to a time. 
 
-Drew: 	Another problem - if we're doing polygons - how do we handle them overlapping (or empty spaces). Make a background class and drop on top of it. Raster case you'd have every thing labeled. ISPRS had 'clutter' for things that aren't there. 
+Drew: 	Another problem - if we're doing polygons - how do we handle them overlapping (or empty spaces). Make a background class and drop on top of it. Raster case you'd have everything labeled. ISPRS had 'clutter' for things that aren't there. 
 
 Between ground truth and training data - if you are making training data for a use case that doesn't have overlap that's where you differentiate. 
 

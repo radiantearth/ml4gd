@@ -54,7 +54,7 @@ MW: Start by looking what's out there and deciding from there, Maybe start with 
 
 FAO LCCS "Cultivated and managed areas"
 
-Start with Binary: Vegetative/Non-Vegetative, aquatic/non-acquatic,etc, then go into madular/hierarchical
+Start with Binary: Vegetative/Non-Vegetative, aquatic/non-acquatic,etc, then go into modular/hierarchical
 
 
 Specifications: 10 m resolution of the map, then Categorical is okay
@@ -79,17 +79,17 @@ MH: The problem with mosaic classes is that they aren't useful, too broad/
 
 MW: What about Savanna?
 
-MH: It's true, that we could have classes that are distinctly defined for physionomic properties, like forest as 5 m tall and falling. 
+MH: It's true, that we could have classes that are distinctly defined for physiognomic properties, like forest as 5 m tall and falling. 
 
 ***Level One: Primarily Vegetated/Primarily Non-Vegetated with a threshold of 4%***
 
 MF & MH: Map the life form and then map the use for terrestrial vegetation (Use as a separate)
 
-What's a fallow field? What's the difference beteen Cultivated and (semi)natural vegetation
+What's a fallow field? What's the difference between Cultivated and (semi)natural vegetation
 
 MW: It depends on use
 
-TA: We have to make a distinction between a static class and a historically-influenced class, i.e. a forrestry region with repeated regrowth; Land Cover is static, Land Use is historical
+TA: We have to make a distinction between a static class and a historically-influenced class, i.e. a forestry region with repeated regrowth; Land Cover is static, Land Use is historical
 
 
 MW: System of Environmental-Economic Accounting (SEEA) https://unstats.un.org/unsd/envaccounting/seearev/seea_cf_final_en.pdf (Annex 1.C, page 299)
@@ -97,7 +97,7 @@ MW: System of Environmental-Economic Accounting (SEEA) https://unstats.un.org/un
 ***LCCS-like will allow for dichotomous and then mediated decisions, then adding in contexts for time and spatial proximity***
 
 
-Mark's commnet:
+Mark's comment:
 - Who is the end user of the land cover map? That will inform land cover labels. 
     
 
@@ -111,7 +111,7 @@ Attributes
 - Percent vegetation cover
 - Percent Woody Cover
 - Vegetation Height
-- Percent of year that soil is sataurated
+- Percent of year that soil is saturated
 - Elevation
 - Species
 - Artificial (Cultivated)/(Semi)Natural
