@@ -94,7 +94,7 @@ TA: We have to make a distinction between a static class and a historically-infl
 
 MW: System of Environmental-Economic Accounting (SEEA) https://unstats.un.org/unsd/envaccounting/seearev/seea_cf_final_en.pdf (Annex 1.C, page 299)
 
-***LCCS-like will allow for dichotmous and then mediated decisions, then adding in contexts for time and spatial proximity***
+***LCCS-like will allow for dichotomous and then mediated decisions, then adding in contexts for time and spatial proximity***
 
 
 Mark's commnet:
