@@ -1,4 +1,4 @@
-## Confirmed Participants
+## Participants
 
 | First Name 	|Last Name	| Title						| Organization                   | 
 |---------------|---------------|---------------------------------|------------------------------------------------------| 
