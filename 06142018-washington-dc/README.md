@@ -1,6 +1,6 @@
 # Machine Learning for Global Land Cover Classification
 
-Radiant.Earth is hosting a 2 day technical workshop 14-15 June, 2018 in Washington, D.C. Goal is to discuss and develop specifications for the global LC labeled training dataset by aggregating inputs from all participants. 
+Radiant.Earth hosted a 2 day technical workshop on 14-15 June, 2018 in Washington, D.C. Goal was to discuss and develop specifications for the global LC labeled training dataset by aggregating inputs from all participants. 
 
 ## Expected Outcomes:
  * Generating an inclusive hierarchical taxonomy of LC classes at global scale;
@@ -12,7 +12,8 @@ Radiant.Earth is hosting a 2 day technical workshop 14-15 June, 2018 in Washingt
 ## Participants:
 Full list of participants is available [here](participants.md). Each participant is assigned to a working group.
 
-
+## Group Photo
+![alt text](GroupPhoto.jpg)
 
 ## Workshop Structure
 
